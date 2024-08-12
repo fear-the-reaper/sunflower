@@ -34,8 +34,18 @@ body {
   border-radius: 8px;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* height: 100%; */
+}
+
 #toggleButton {
-  position: relative;
+  /* position: relative; */
+  padding: 4px;
+  width: 150px;
 }
 
 #overlay {
